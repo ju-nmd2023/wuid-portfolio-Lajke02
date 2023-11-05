@@ -1,0 +1,55 @@
+/* Background */
+/* the background-image tag is taken from Eveline Ingessons lecture, the rest is though trial and error. */
+body {
+  background-image: url(/img/starry-night.jpg);
+  background-repeat: repeat-x;
+  background-size: 567px 284px;
+  background-color: #fac8fb;
+}
+
+/* Logo */
+/* Logo code was added courtesy of Eveline Ingesson. */
+#logo {
+  color: white;
+  font-size: larger;
+  font-family: "Pixelify Sans", sans-serif;
+  padding-left: 0px;
+}
+
+/* Linked List */
+/* List-style and anchor code was added courtesy of Eveline Ingesson. */
+ul {
+  list-style: none;
+  padding-left: 0%;
+}
+a {
+  color: white;
+  font-family: "Chakra Petch", sans-serif;
+}
+
+/* Main Header*/
+h1 {
+  font-family: "Pixelify Sans", sans-serif;
+  font-size: xxx-large;
+  color: white;
+  margin-top: 150px;
+}
+
+/* Text */
+p {
+  color: white;
+  font-family: "Chakra Petch", sans-serif;
+}
+.pictures {
+  width: 200px;
+}
+
+/* Footer */
+/* Footer code was added courtesy of Eveline Ingessons videos. */
+footer {
+  color: white;
+  font-family: "Chakra Petch", sans-serif;
+  font-size: small;
+  margin-top: 2rem;
+  border-top: 3px solid white;
+}
