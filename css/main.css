@@ -53,3 +53,34 @@ footer {
   margin-top: 2rem;
   border-top: 3px solid white;
 }
+
+/* Contact form */
+#contactname {
+  color: black;
+  background-color: white;
+  border-style: solid;
+  border-color: hotpink;
+  padding-bottom: 2%;
+  padding-left: 1%;
+  max-width: 500px;
+}
+
+#writing {
+  color: black;
+  background-color: white;
+  border-style: solid;
+  border-color: hotpink;
+  padding-bottom: 9%;
+  padding-left: 1%;
+  max-width: 500px;
+}
+
+#submitbutton {
+  color: white;
+  background-color: hotpink;
+  border-style: solid;
+  border-color: hotpink;
+  padding-left: 1%;
+  max-width: 60px;
+  min-width: 60px;
+}
