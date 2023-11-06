@@ -1,7 +1,7 @@
 /* Background */
 /* the background-image tag is taken from Eveline Ingessons lecture, the rest is though trial and error. */
 body {
-  background-image: url(/img/starry-night.jpg);
+  background-image: url(../img/starry-night.jpg);
   background-repeat: repeat-x;
   background-size: 567px 284px;
   background-color: #fac8fb;
