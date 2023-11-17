@@ -5,11 +5,6 @@ body {
   min-height: 100vh;
 }
 
-.mainpage {
-  background-image: url(../../../img/homepage-pic.jpeg);
-  background-size: cover;
-}
-
 /* HEADER & LINKED MENU*/
 header {
   background-color: #929f72;
