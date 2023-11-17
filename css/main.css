@@ -6,7 +6,7 @@ body {
 }
 
 .mainpage {
-  background-image: url(/img/homepage-pic.jpeg);
+  background-image: url(../img/homepage-pic.jpeg);
   background-size: cover;
 }
 
@@ -86,7 +86,7 @@ footer {
   padding-top: 4rem;
   padding-left: 10%;
   font-family: "Kdam Thmor Pro", sans-serif;
-  color: #efe8da;
+  color: #929f72;
   font-size: xx-large;
 }
 
