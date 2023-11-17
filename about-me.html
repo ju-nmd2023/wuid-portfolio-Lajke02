@@ -4,23 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lykke's Portfolio</title>
+    <script src="main.js" defer></script>
     <link rel="stylesheet" href="css/main.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap"
       rel="stylesheet"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
     <header>
-      <p id="logo">Lykke's Portfolio</p>
+      <!-- The following 5 lines of code was added courtesy of Eveline Ingesson. -->
+      <h1>Lykke's Portfolio</h1>
       <nav>
         <ul>
           <a href="index.html">
@@ -29,7 +31,7 @@
           <a href="about-me.html">
             <li>About Me</li>
           </a>
-          <a href="#">
+          <a href="projects.html">
             <li>Projects</li>
           </a>
           <a href="contacts.html">
@@ -38,25 +40,73 @@
         </ul>
       </nav>
     </header>
+
     <main>
-      <!-- Class-tag was added courtesy of Eveline Ingesson. -->
-      <h1>A little bit about me!</h1>
-      <img class="pictures" src="img/me.jpg" alt="Picture of me." />
-      <p>
-        I'm Lykke Karlsson, 21 years old from Värnamo, Sweden. I go to JTH and
-        major in New Media Design which includes graphic design and webb
-        development.
-      </p>
-      <p>
-        Things that inspire me are art, music, nature, friends, family and my
-        cats.
-      </p>
-      <img class="pictures" src="img/cat.jpg" alt="Picture of my cat Saddam." />
-      <img
-        class="pictures"
-        src="img/tree.jpg"
-        alt="Picture of a tree in autumn with yellow leaves."
-      />
+      <section class="text">
+        <h2>Me</h2>
+        <p>
+          Hi, I'm Lykke! I'm a 21 year old graphic design and web development
+          student at JTH, Jönköping, Sweden. I'm interested in art, graphic
+          design, music, nature and cats.
+        </p>
+        <p>
+          I grew up in a little town called Värnamo, which is about 1 hour from
+          Jönköping.
+        </p>
+        <p>
+          I actually civics in highschool but chose an entirely different way to
+          end up here. After highschool I worked several different jobs for 2
+          years to gain some experience and have a better financial standpoint
+          as I started studying. The most boring situation for me in an work
+          environment is be where I would be at a point that I could not learn
+          any more from the work I'm doing. Which is why I've switched jobs
+          quite a few times. To work with something more creative is also
+          something I really enjoy doing.
+        </p>
+        <p></p>
+      </section>
+      <section class="pictures">
+        <img
+          src="img/me-pic-1.jpeg"
+          alt="A roadsign covered in white appleflowers."
+        />
+        <img
+          class="collage"
+          src="img/me-pic-2.jpeg"
+          alt="A green painted picture that says 'turn it into art'."
+        />
+        <img
+          class="collage"
+          src="img/me-pic-3.jpeg"
+          alt="Picture of animated pink flowers from the movie Spirited Away."
+        />
+        <img
+          class="collage"
+          src="img/me-pic-4.jpeg"
+          alt="Bundled up sheep with sweater, gloves and hat, holding a mug from the tv show Shaun the Sheep.."
+        />
+        <img class="collage" src="img/me-pic-5.jpeg" alt="A picture of Me." />
+        <img
+          class="collage"
+          src="img/me-pic-6.jpeg"
+          alt="Cartoon cat sitting on the back of a bike from the movie Whisper of the Heart."
+        />
+        <img
+          class="collage"
+          src="img/me-pic-7.jpeg"
+          alt="Picture of a girl holding a leaf as an umbrella in the rain."
+        />
+        <img
+          class="collage"
+          src="img/me-pic-8.jpeg"
+          alt="Picture of white appleflowers."
+        />
+        <img
+          class="collage"
+          src="img/me-pic-9.jpeg"
+          alt="Picture of sidewalk in the rain."
+        />
+      </section>
     </main>
     <footer>
       <p>© Lykke's Portfolio 2023</p>

@@ -4,24 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lykke's Portfolio</title>
+    <script src="main.js" defer></script>
     <link rel="stylesheet" href="css/main.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap"
       rel="stylesheet"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
     <header>
       <!-- The following 5 lines of code was added courtesy of Eveline Ingesson. -->
-      <p id="logo">Lykke's Portfolio</p>
+      <h1>Lykke's Portfolio</h1>
       <nav>
         <ul>
           <a href="index.html">
@@ -30,26 +31,34 @@
           <a href="about-me.html">
             <li>About Me</li>
           </a>
-          <a href="#">
+          <a href="projects.html">
             <li>Projects</li>
           </a>
-          <a href="#">
+          <a href="contacts.html">
             <li>Contact</li>
           </a>
         </ul>
       </nav>
     </header>
-    <main>
-      <h1>Contact me</h1>
-      <p>
-        This is a contact form for you to write to me with. You can otherwise
-        contact me through my email: kaly23qb@student.ju.se
-      </p>
-      <p id="contactname">name ...</p>
-      <p id="writing">write here...</p>
-      <p id="submitbutton">submit</p>
-    </main>
 
+    <main>
+      <img
+        id="mail-me-pic"
+        src="img/contactpage-pic.jpeg"
+        alt="A picture of letters in a pixelstyle."
+      />
+      <section id="mail-me-text">
+      <h2>Contacting me</h2>
+      <form action="contacts.html">
+        <input type="text" value="Name" />
+        <input type="text" value="Write here..." />
+        <button>submit</button>
+      </form>
+      <h3>Other ways to contact me:</h3>
+      <p>Email: kaly23qb@student.ju.se</p>
+      <p>Private email: lykkek@hotmail.se</p>
+    </main>
+    </section>
     <footer>
       <p>© Lykke's Portfolio 2023</p>
     </footer>

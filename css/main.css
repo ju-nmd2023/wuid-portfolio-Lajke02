@@ -1,86 +1,178 @@
-/* Background */
-/* the background-image tag is taken from Eveline Ingessons lecture, the rest is though trial and error. */
+/* BACKGROUND */
 body {
-  background-image: url(../img/starry-night.jpg);
-  background-repeat: repeat-x;
-  background-size: 567px 284px;
-  background-color: #fac8fb;
+  background-color: #efe8da;
+  margin: 0;
+  min-height: 100vh;
 }
 
-/* Logo */
-/* Logo code was added courtesy of Eveline Ingesson. */
-#logo {
-  color: white;
-  font-size: larger;
-  font-family: "Pixelify Sans", sans-serif;
-  padding-left: 0px;
+.mainpage {
+  background-image: url(/img/homepage-pic.jpeg);
+  background-size: cover;
 }
 
-/* Linked List */
-/* List-style and anchor code was added courtesy of Eveline Ingesson. */
+/* HEADER & LINKED MENU*/
+header {
+  background-color: #929f72;
+  width: 20%;
+  margin: 0;
+  padding-left: 1rem;
+  height: 100%;
+  position: fixed;
+}
+
+h1 {
+  margin-top: 0%;
+  padding-top: 2rem;
+  font-family: "Kdam Thmor Pro", sans-serif;
+  color: #efe8da;
+}
+
 ul {
+  font-family: "Kdam Thmor Pro", sans-serif;
+  color: #efe8da;
   list-style: none;
+  line-height: 3rem;
   padding-left: 0%;
 }
+
 a {
-  color: white;
-  font-family: "Chakra Petch", sans-serif;
+  color: #efe8da;
 }
 
-/* Main Header*/
-h1 {
-  font-family: "Pixelify Sans", sans-serif;
-  font-size: xxx-large;
-  color: white;
-  margin-top: 150px;
+main {
+  margin-left: 20%;
+  padding-left: 2rem;
+  padding-right: 1rem;
 }
 
-/* Text */
-p {
-  color: white;
-  font-family: "Chakra Petch", sans-serif;
-}
-.pictures {
-  width: 200px;
+/* IMAGES */
+
+img {
+  max-width: 100%;
+  max-height: 100%;
 }
 
-/* Footer */
-/* Footer code was added courtesy of Eveline Ingessons videos. */
+#mail-me-pic {
+  float: left;
+  padding-right: 2rem;
+  padding-left: 15%;
+  padding-top: 15%;
+}
+
+/* TEXT */
+
+p,
+h3 {
+  font-family: "EB Garamond", serif;
+  color: #929f72;
+}
+
+h2 {
+  margin-top: 0%;
+  padding-top: 4rem;
+  font-family: "EB Garamond", serif;
+  color: #929f72;
+}
+
 footer {
-  color: white;
-  font-family: "Chakra Petch", sans-serif;
-  font-size: small;
-  margin-top: 2rem;
-  border-top: 3px solid white;
+  margin-left: 20%;
+  margin-top: 80%;
+  padding-left: 2rem;
+  border-top: solid #929f72;
 }
 
-/* Contact form */
-#contactname {
-  color: black;
-  background-color: white;
-  border-style: solid;
-  border-color: hotpink;
-  padding-bottom: 3%;
-  padding-left: 1%;
-  max-width: 500px;
+.mainpage-text {
+  margin-top: 0%;
+  padding-top: 4rem;
+  padding-left: 10%;
+  font-family: "Kdam Thmor Pro", sans-serif;
+  color: #efe8da;
+  font-size: xx-large;
 }
 
-#writing {
-  color: black;
-  background-color: white;
-  border-style: solid;
-  border-color: hotpink;
-  padding-bottom: 9%;
-  padding-left: 1%;
-  max-width: 500px;
+/* SPECIFIC SECTIONS & GRID */
+
+#coffee-table-book {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-right: 10%;
 }
 
-#submitbutton {
-  color: white;
-  background-color: hotpink;
-  border-style: solid;
-  border-color: hotpink;
-  padding-left: 1%;
-  max-width: 60px;
-  min-width: 60px;
+.text {
+  padding-top: 0;
+  padding-right: 10%;
+  padding-left: 10%;
+  margin-right: 0%;
+}
+
+.mainpage {
+  font-family: "Kdam Thmor Pro", sans-serif;
+  align-items: center;
+}
+
+#mail-me-text {
+  padding-left: 15%;
+  padding-top: 17%;
+  padding-right: 15%;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 700px) {
+  header {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  ul {
+    display: flex;
+  }
+  li {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  main {
+    margin-left: 0%;
+  }
+  footer {
+    margin-left: 0%;
+  }
+  #mail-me-pic {
+    float: none;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 0%;
+  }
+  #mail-me-text {
+    padding-top: 0%;
+    padding-left: 5;
+    padding-left: 5%;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .pictures {
+    display: grid;
+    grid-template-areas:
+      "img img"
+      "img img"
+      "img img"
+      "img img";
+    padding-top: 2rem;
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .pictures {
+    display: grid;
+    grid-template-areas:
+      "img img img"
+      "img img img"
+      "img img img";
+    padding-top: 2rem;
+    padding-right: 10%;
+    padding-left: 10%;
+  }
 }
