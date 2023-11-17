@@ -6,7 +6,7 @@ body {
 }
 
 .mainpage {
-  background-image: url(../img/homepage-pic.jpeg);
+  background-image: url(../../img/homepage-pic.jpeg);
   background-size: cover;
 }
 
