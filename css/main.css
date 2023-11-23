@@ -101,10 +101,64 @@ footer {
   margin-right: 0%;
 }
 
+/* Contact form */
 #mail-me-text {
   padding-left: 15%;
   padding-top: 17%;
-  padding-right: 15%;
+  padding-right: 10%;
+}
+
+#input {
+  padding-top: 2%;
+  padding-left: 2%;
+  padding-bottom: 2%;
+  padding-right: 0%;
+  border: solid #929f72;
+}
+
+#btn {
+  padding: 1%;
+  background-color: #929f72;
+  border: none;
+  color: #efe8da;
+  animation-name: colorchange;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  cursor: pointer;
+}
+
+@keyframes colorchange {
+  10% {
+    background-color: #929f72;
+  }
+  20% {
+    background-color: lightskyblue;
+  }
+  30% {
+    background-color: plum;
+  }
+  40% {
+    background-color: lightpink;
+  }
+  50% {
+    background-color: lightcoral;
+  }
+  60% {
+    background-color: orange;
+  }
+  70% {
+    background-color: lightgoldenrodyellow;
+  }
+  80% {
+    background-color: lightyellow;
+  }
+  90% {
+    background-color: beige;
+  }
+  100% {
+    background-color: lightgreen;
+  }
 }
 
 /* MEDIA QUERIES */

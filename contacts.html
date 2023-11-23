@@ -2,9 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
     <title>Lykke's Portfolio</title>
-    <script src="main.js" defer></script>
+    <script src="js/main.js" defer></script>
     <link rel="stylesheet" href="css/main.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -47,18 +49,20 @@
         src="img/contactpage-pic.jpeg"
         alt="A picture of letters in a pixelstyle."
       />
-      <section id="mail-me-text">
-      <h2>Contacting me</h2>
-      <form action="contacts.html">
-        <input type="text" value="Name" />
-        <input type="text" value="Write here..." />
-        <button>submit</button>
-      </form>
-      <h3>Other ways to contact me:</h3>
-      <p>Email: kaly23qb@student.ju.se</p>
-      <p>Private email: lykkek@hotmail.se</p>
+      <div id="mail-me-text">
+        <h2 id="contactheader">Contact me</h2>
+        <form>
+          <input id="input" type="text" placeholder="write here..." />
+          <button type="button" id="btn">submit</button>
+          <div id="text-box">
+            <h3 id="changeme"></h3>
+            <h3>Other ways to contact me:</h3>
+            <p>Email: kaly23qb@student.ju.se</p>
+            <p>Private email: lykkek@hotmail.se</p>
+          </div>
+        </form>
+      </div>
     </main>
-    </section>
     <footer>
       <p>© Lykke's Portfolio 2023</p>
     </footer>
